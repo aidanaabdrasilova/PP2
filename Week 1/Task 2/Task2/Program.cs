@@ -8,17 +8,17 @@ namespace Task2
 {
     class Student
     {
-        public string name;
+        public string Name;
         public string Id;
-        public int YeartOFStudy;
+        public int YeartofStudy;
         public Student(string name, string id)
         {
-            this.name = name;
+            this.Name = name;
             this.Id = id;
         }
         public string GetName()
         {
-            return name;
+            return Name;
         }
         public string GetId()
         {
@@ -26,7 +26,7 @@ namespace Task2
         }
         public int GetYearOfStudy()
         {
-            return ++YeartOFStudy;
+            return ++YeartofStudy;
         }
     }
     class Program
