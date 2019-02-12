@@ -10,19 +10,19 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine()); // Created the variable n and ask user write it
-            for (int k = 0; k < n; k++)
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; ++i)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < n; ++j)
                 {
-                    if (k >= j) // Condition which works if k more or equal j
+                    if (i >= j)
                     {
-                        Console.Write("[*]"); // Show the [*]
+                        Console.Write("[*]");
                     }
                 }
-                Console.Write("\n"); // use to begin the drow from the new line
+                Console.Write("\n");
             }
-            Console.ReadKey();// use to show the result until the window did not close
+            Console.ReadKey();
         }
     }
 }
