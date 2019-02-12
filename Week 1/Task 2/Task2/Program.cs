@@ -10,7 +10,7 @@ namespace Task2
     {
         public string Name;
         public string Id;
-        public int YeartofStudy;
+        public int YearofStudy;
         public Student(string name, string id)
         {
             this.Name = name;
@@ -26,7 +26,7 @@ namespace Task2
         }
         public int GetYearOfStudy()
         {
-            return ++YeartofStudy;
+            return ++YearofStudy;
         }
     }
     class Program
